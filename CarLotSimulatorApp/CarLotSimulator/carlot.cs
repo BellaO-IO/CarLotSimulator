@@ -4,14 +4,25 @@ using System.Text;
 
 namespace CarLotSimulator
 {
-    class carlot
+    class Carlot
     {
-            public carlot()
-            {
 
-            }
+            public Carlot()
+            {
+            
+        }
+        public static int numberOfCars = 0;
+
+        public List<Car> ParkingLot = new List<Car>();
+
+
+
+
+
+
+
     }
 
 
-    public List<Car> ParkingLot { get; set; } = new List<Car>();
+    
 }
